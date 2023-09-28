@@ -1,0 +1,15 @@
+#!/bin/bash
+
+VERSION="$(cat VERSION)"
+
+CONFIG_H_IN="config.h.in"
+CONFIG_H="config.h"
+
+# delete config.h
+rm -f $CONFIG_H
+
+# create config.h
+cp $CONFIG_H_IN $CONFIG_H
+
+echo "creating config.h"
+sed -i "s/@VERSION/$VERSION/g" ${CONFIG_H}

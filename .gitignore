@@ -1,0 +1,3 @@
+*.o
+pat
+config.h
