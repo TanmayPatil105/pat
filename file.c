@@ -20,16 +20,7 @@
 
 #include <stdio.h>
 #include <string.h>
-
-typedef enum {
-  FILE_EXTENSION_C,
-  FILE_EXTENSION_PYTHON,
-  FILE_EXTENSION_GO,
-  FILE_EXTENSION_CPP,
-  FILE_EXTENSION_HTML,
-  FILE_EXTENSION_NONE,
-  N_FILE_EXTENSION
-} FileExtension;
+#include "file.h"
 
 typedef struct { 
   char *key;

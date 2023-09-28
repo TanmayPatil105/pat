@@ -27,6 +27,7 @@ typedef enum {
   FILE_EXTENSION_CPP,
   FILE_EXTENSION_HTML,
   FILE_EXTENSION_NONE,
+  N_FILE_EXTENSION,
 } FileExtension;
 
 FileExtension 	get_file_extension (const char *file_name);
