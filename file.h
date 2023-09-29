@@ -30,5 +30,5 @@ typedef enum {
   N_FILE_EXTENSION,
 } FileExtension;
 
-FileExtension 	get_file_extension (const char *file_name);
+FileExtension 	get_file_extension (const char   *file_name);
 char * 		get_extension_code (FileExtension fext); 

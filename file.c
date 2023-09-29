@@ -76,7 +76,7 @@ get_file_extension (const char *file_name)
   return key_from_extension (ext);
 }
 
-char *
+char*
 get_extension_code (FileExtension fext)
 {
   codes [FILE_EXTENSION_C] = "#include <stdio.h>\n\nint main() {\n  return 0;\n}\n";
